@@ -1,0 +1,142 @@
+<!DOCTYPE html>
+
+<html lang="en">
+
+<head>
+    
+    <meta charset="UTF-8">
+
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+
+    <title>Document</title>
+
+    <link rel="stylesheet" href="css/custom.css">
+
+</head>
+
+<body>
+
+  <nav class="navbar-explore" style="width: 100%; padding: 0; box-sizing: content-box;">
+    <div class="navbar" style="display: contents; flex-wrap: wrap; align-items: safe; justify-content: left; max-width: 1200px; margin: 0 auto; width: 100%;">
+        <div class="navbar" id="navbarSupportedContent" style="flex: 1 1 100%;">
+            <ul class="navbar" style="display: flex; flex-wrap: wrap; flex-direction: row; gap: 0px; list-style: none; padding-left: 0; margin-bottom: 0; justify-content: center; width: 100%;">
+                <li class="navbar">
+                    <a class="navbar-active-Home" aria-current="page" href="index.html" style="padding: 0 0px;">VENERA</a>
+                </li>
+                <li class="navbar">
+                    <a class="navbar-active" href="products.html" style="padding: 0 15px;">Products</a>
+                </li>
+                <li class="navbar">
+                    <a class="navbar-active" href="services.html" style="padding: 0 10px;">Services</a>
+                </li>
+                <li class="navbar">
+                    <a class="navbar-active" href="staff-page.html" style="padding: 0 10px;">Staff Members</a>
+                </li>
+                <li class="navbar">
+                    <a class="navbar-active" href="about-us.html" style="padding: 0 10px;">About Us</a>
+                </li>
+                <li class="navbar">
+                    <a class="navbar-active" href="contact-us.html" style="padding: 0 10px;">Contact Us</a>
+                </li>
+            </ul>
+        </div>
+    </div>
+</nav>
+
+
+
+</body> <body class="ThankYouBody">
+<!-- Main -------------------------------->
+<div class="container">
+  <h3>CONTACT US</h3>
+  <hr>
+  <h3>Contact Us Form</h3>
+  <hr>
+
+  <form id="myForm" class="was-validated" onsubmit="myFormSubmits(event)">
+
+    <!-- Select Title -->
+    <div class="form-group">
+      <label for="nameTitle">Title:</label>
+      <select id="nameTitle" class="form-control" name="Title " required>
+        <option value="">Please select a title...</option>
+        <option value="MR">Mr.</option>
+        <option value="MISS">Miss</option>
+        <option value="MRS">Mrs.</option>
+        <option value="DR">Dr.</option>
+      </select>
+      <small class="field-note">* Required</small>
+      <div class="valid-feedback"></div>
+      <div class="invalid-feedback"></div>
+    </div>
+
+    <!-- Full Name -->
+    <div class="form-group">
+      <label for="fullName">Full Name:</label>
+      <input type="text" class="form-control" id="fullName" name="Full Name " placeholder="Please enter your full name" required>
+      <small class="field-note">* Required</small>
+      <div class="valid-feedback"></div>
+      <div class="invalid-feedback"></div>
+    </div>
+
+    <!-- Email -->
+    <div class="form-group">
+      <label for="email">Email Address:</label>
+      <input type="email" class="form-control" id="email" placeholder="Please enter your email" name="Email " required>
+      <small class="field-note">* Required</small>
+      <div class="valid-feedback"></div>
+      <div class="invalid-feedback"></div>
+    </div>
+
+    <!-- Phone Number -->
+    <div class="form-group">
+      <label for="phoneNumber">Phone Number:</label>
+      <input type="tel" class="form-control" id="phoneNumber" placeholder="Please enter your phone number" name="Phone Number " required>
+      <small class="field-note">* Required</small>
+      <div class="valid-feedback"></div>
+      <div class="invalid-feedback"></div>
+    </div>
+
+    <!-- Address -->
+    <div class="form-group">
+      <label for="address">Reason for Contacting:</label>
+      <textarea class="form-control" id="address" rows="3" placeholder="Reason for your contact...." name="Contact Reason " required></textarea>
+      <small class="field-note">* Required</small>
+      <div class="valid-feedback"></div>
+      <div class="invalid-feedback"></div>
+    </div>
+
+   
+
+    <!-- Buttons -->
+    <div class="form-group text-center">
+      <button type="submit" class="btn btn-success">Submit Form</button>
+      <button type="reset" class="btn btn-secondary">Reset</button>
+    </div>
+
+  </form>
+
+</div>
+<!-- Main End -------------------------------->
+<!-- Custom Scripting -->
+<script src="js/formscript2.js"></script>
+<!-- End Custom Scripting -->
+<!-- Footer Start -->
+<footer class="footer" style="width: 100%; padding: 16px 0; box-sizing: content-box; background-color: #f8f9fa; text-align: center; margin-top: 32px;">
+    <div class="footer" style="max-width: 1200px; margin: 0 auto; width: 100%; padding: 0 16px;">
+        <p style="margin: 0;">&copy; 2024 VENERA. All rights reserved.
+            <br>
+            Designed by VENERA Team.
+            <br>
+            Contact us at
+            <br>
+            <br>
+            Email: VENERA@gmail.com | Phone: +44 1234 567890 | Address: 123 Fashion St, London, UK  
+            <br>
+            <br> Venera is a clothing company founded in 1850, with a long-standing heritage rooted in craftsmanship and quality. The company employs 16 staff members and operates three stores worldwide. Venera specializes in vintage-style clothing and also offers custom tailoring, allowing customers to receive garments that reflect both classic design and personal fit. This combination of tradition and bespoke service defines Venera’s identity and sets it apart from modern mass-produced fashion brands.
+        </p>
+    </div>
+</footer>
+<!-- Footer End -->
+</body>
+</html>
