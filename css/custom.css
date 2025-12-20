@@ -1,7 +1,7 @@
 /* Banner Styles */
 
 .banner {
-    background: url('images/venera-home.png') no-repeat center/cover;
+    background: url('/images/venera-clothing.png') no-repeat center/cover;
     height: 1000px;
     display: flex;
     align-items: center;
@@ -224,6 +224,9 @@
     border: auto;
     box-shadow: none;
 }
+.accordion-button:hover {
+    background-color: #f1f1f1;
+}
 .accordion-body {
     font-family: 'Source Sans Pro', sans-serif;
     font-size: 16px;
@@ -232,6 +235,11 @@
     text-wrap: center;
     padding: 150px;
     border-top: 1px solid #ddd;
+}
+.accordion-item {
+    border: 1px solid #ddd;
+    border-radius: 5px;
+    margin-bottom: 10px;
 }
 .accordion-item:not(:last-child) {
     border-bottom: none;
@@ -302,10 +310,4 @@
 .accordion-item:first-child .accordion-button {
     border-top-left-radius: 5px;
     border-top-right-radius: 5px;
-}
-
-/* Footer Styles */
-.footer { 
-    text-decoration: black;
-    text-align: center;
 }
