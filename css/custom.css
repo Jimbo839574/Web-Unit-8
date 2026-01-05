@@ -1,7 +1,7 @@
 /* Banner Styles */
 
 .banner {
-    background: url("../images/venera-home.png") no-repeat center/cover;
+    background: url("images/venera-home.png") no-repeat center/cover;
     height: auto;
     display: flex;
     align-items: center;
