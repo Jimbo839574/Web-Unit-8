@@ -1,17 +1,19 @@
 /* Banner Styles */
 
 .banner {
-    background: url('images/venera-home.png') no-repeat center/cover;
-    height: 1000px;
-    display: flex;
+    background: url("/images/venera-home.png") no-repeat center/cover;
+    height: 100%;
+    display: auto;
     align-items: center;
     justify-content: center;
     text-align: center;
-    color: #dd0d0d;
+    color: #f9f6f6;
     padding: 20px;
     image-rendering: auto;
-    image-resolution: from-image;
+    image-resolution: auto;
     border-image-width: auto;
+    width: 100%;
+    size: auto;
 }
 
 .banner-content {
