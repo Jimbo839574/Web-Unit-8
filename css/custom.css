@@ -157,6 +157,18 @@
 }
 
 /* Card Styles */
+
+.card-container3 {
+   display: flex;
+    gap: 24px;
+    justify-content: center;
+    flex-wrap: wrap;
+    padding: 50px 10px;
+    align-items: center;
+}
+
+
+
 .card {
     transition: transform 0.2s;
     height: auto;
@@ -310,7 +322,13 @@
 /* Footer Styles */
 .footer { 
     text-decoration: black;
-    text-align: center;
+    text-align: bottom;
+    align-self: bottom;
+    position: bottom;
+    width: 100%;
+    background-color: #f5f5f5;
+    border-top: 1px solid #e0e0e0;
+    margin-top: 50px;
 }
 
 .footer-text {
